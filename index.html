@@ -5,18 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="proj.js"></script>
-    <title>Document</title>
+    <script src="proj.js" defer></script>
+    <link rel="shortcut icon" href="imagens/1f525.png" type="image">
+    <title>array</title>
 </head>
 <body>
     <h1>trabuncando com array parte 2</h1>
     <br>
-    <label for="">digite uma cidade</label>
+    <label for="cidade">digite uma cidade</label>
     <input type="text" id="cidade">
     <br><br>
     <button onclick="inserir()">inserir</button>
     <br><br>
     <button onclick="excluir()">excluir</button>
+    <br> <br>
+    <button onclick="insert_inicio()">inserir no inicio</button>
+    <br> <br>
+    <button ondblclick="excluir_inicio()">excluir do final</button>
+    <br> <br>
+    <div id="res"></div>
 
 </body>
 </html> 
